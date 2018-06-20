@@ -24,7 +24,8 @@ int main()
         cout << "That is equivalent to " << value/dollar_to_myr << " dollars\n";
     else if (currency == 'E')
         cout << "That is equivalent to " << value/dollar_to_euro << " dollars\n";
-    else if (currency == 'D'){
+    else if (currency == 'D')
+    {
         cout << "That is equicvalent to:\n";
         cout << value*dollar_to_yen << " yen\n";
         cout << value*dollar_to_myr << " ringgit\n";
