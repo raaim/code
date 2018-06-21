@@ -7,11 +7,8 @@ using namespace std;
 
 int main()
 {
-    char i = 'a';
-
-    while (i<('a'+26))
+    for (char i = 'a'; i < ('a' + 26); ++i)
     {
         cout << i << "\t" << int{i} << "\n";
-        ++i;
     }
 }
