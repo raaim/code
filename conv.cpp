@@ -18,21 +18,21 @@ int main()
 
     cin >> value >> currency;
 
-    if (currency == 'Y')
+    switch(currency){
+    
+    case 'Y':
         cout << "That is equivalent to " << value/dollar_to_yen << " dollars\n";
-    else if (currency == 'M')
+        break;
+    case 'M':
         cout << "That is equivalent to " << value/dollar_to_myr << " dollars\n";
-    else if (currency == 'E')
+        break;
+    case 'E':
         cout << "That is equivalent to " << value/dollar_to_euro << " dollars\n";
-    else if (currency == 'D')
-    {
-        cout << "That is equicvalent to:\n";
-        cout << value*dollar_to_yen << " yen\n";
-        cout << value*dollar_to_myr << " ringgit\n";
-        cout << value*dollar_to_euro << " euro\n";
-    }
-    else
+        break;
+    default:
         cout << "I don't know that currency";
+        break;
+    }
 
     return 0;
 }
