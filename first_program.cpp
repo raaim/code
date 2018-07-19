@@ -15,6 +15,6 @@ int fsquare(int s)
 
 int main()
 {
-    for (int i = 0; i < 100; ++i)
-        cout << i << "\t" << fsquare(i) << endl; 
+    for (int i = 0; i <= 100; ++i)
+        cout << i << "\t" << fsquare(i) << endl;
 }

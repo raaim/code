@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    string disliked = "cactus";
+    string disliked = "fuck";
     vector<string> words;
 
     for (string word; cin >> word; )
