@@ -22,4 +22,3 @@ int main()
     else 
         cout << "First root = " << root1 << endl << "Second root = " << root2 << endl;
 }
-
